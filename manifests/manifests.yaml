@@ -1,0 +1,17 @@
+---
+apiVersion: example.com/v1
+kind: ExampleResource
+metadata:
+  name: example-resource-sample
+  namespace: default
+spec:
+  field1: "Example string value"
+  field2: 42
+status:
+  observedGeneration: 1
+  conditions:
+    - type: Ready
+      status: "True"
+      lastUpdateTime: "2024-05-25T12:00:00Z"
+      reason: "ResourceCreated"
+      message: "The resource has been successfully created and is ready."
