@@ -7,11 +7,11 @@ metadata:
 spec:
   field1: "Example string value"
   field2: 42
-status:
-  observedGeneration: 1
-  conditions:
-    - type: Ready
-      status: "True"
-      lastUpdateTime: "2024-05-25T12:00:00Z"
-      reason: "ResourceCreated"
-      message: "The resource has been successfully created and is ready."
+# status:
+#   observedGeneration: 2
+#   conditions:
+#     - type: Ready
+#       status: "True"
+#       lastUpdateTime: "2024-05-25T12:00:00Z"
+#       reason: "ManualUpdate"
+#       message: "The resource has been successfully created and is ready."

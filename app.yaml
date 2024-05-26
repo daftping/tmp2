@@ -8,7 +8,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: manifests
-    repoURL: 'git@github.com:daftping/tmp2.git'
+    repoURL: 'https://github.com/daftping/tmp2.git'
     targetRevision: HEAD
     directory:
       recurse: true
